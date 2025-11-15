@@ -48,6 +48,7 @@ layers:
   - '!'
   - '@'
   - '#'
+  - '*'
   - LCTRL
   - LALT
   - LWIN
@@ -91,6 +92,11 @@ layers:
   - NUM_7
   - NUM_8
   - NUM_9
+  - NUM_DOT
+  - NUM_PLUS
+  - NUM_MINUS
+  - NUM_MULTIPLY
+  - NUM_DIVIDE
   LDT_:
   - Q
   - W
@@ -139,6 +145,7 @@ layers:
   - '!'
   - '@'
   - '#'
+  - '*'
   - LCTRL
   - LALT
   - LWIN
@@ -182,6 +189,11 @@ layers:
   - NUM_7
   - NUM_8
   - NUM_9
+  - NUM_DOT
+  - NUM_PLUS
+  - NUM_MINUS
+  - NUM_MULTIPLY
+  - NUM_DIVIDE
   Number:
   - {t: LDT, h: toggle}
   - {t: LDT_, h: toggle}
@@ -215,11 +227,12 @@ layers:
   - '9'
   - '0'
   - '-'
-  - '='
-  - '+'
   - '*'
   - '/'
   - '%'
+  - '^'
+  - '&'
+  - '|'
   - '7'
   - '8'
   - '9'
@@ -228,10 +241,8 @@ layers:
   - ','
   - ';'
   - ':'
-  - '/'
   - '\'
-  - '|'
-  - '&'
+  - '_'
   - LCTRL
   - LALT
   - LWIN
@@ -275,4 +286,9 @@ layers:
   - NUM_7
   - NUM_8
   - NUM_9
+  - NUM_DOT
+  - NUM_PLUS
+  - NUM_MINUS
+  - NUM_MULTIPLY
+  - NUM_DIVIDE
 combos: []
