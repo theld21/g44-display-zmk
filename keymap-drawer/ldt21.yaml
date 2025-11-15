@@ -16,6 +16,7 @@ layers:
   - \
   - '|'
   - '`'
+  - '~'
   - A
   - S
   - D
@@ -31,6 +32,8 @@ layers:
   - '='
   - '-'
   - _
+  - '+'
+  - '*'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -41,11 +44,10 @@ layers:
   - ','
   - .
   - {t: /, h: LEFT SHIFT}
-  - '*'
-  - +
-  - ^
-  - '~'
+  - '?'
+  - '!'
   - '@'
+  - '#'
   - LCTRL
   - LALT
   - LWIN
@@ -70,27 +72,25 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INSERT
+  - HOME
+  - PAGE_UP
+  - PAGE_DOWN
+  - END
+  - UP
+  - DOWN
+  - LEFT
+  - RIGHT
+  - NUM_0
+  - NUM_1
+  - NUM_2
+  - NUM_3
+  - NUM_4
+  - NUM_5
+  - NUM_6
+  - NUM_7
+  - NUM_8
+  - NUM_9
   LDT_:
   - Q
   - W
@@ -107,6 +107,7 @@ layers:
   - \
   - '|'
   - '`'
+  - '~'
   - A
   - S
   - D
@@ -122,6 +123,8 @@ layers:
   - '='
   - '-'
   - _
+  - '+'
+  - '*'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -132,11 +135,10 @@ layers:
   - ','
   - .
   - {t: /, h: LEFT SHIFT}
-  - '*'
-  - +
-  - ^
-  - '~'
+  - '?'
+  - '!'
   - '@'
+  - '#'
   - LCTRL
   - LALT
   - LWIN
@@ -161,34 +163,32 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - INSERT
+  - HOME
+  - PAGE_UP
+  - PAGE_DOWN
+  - END
+  - UP
+  - DOWN
+  - LEFT
+  - RIGHT
+  - NUM_0
+  - NUM_1
+  - NUM_2
+  - NUM_3
+  - NUM_4
+  - NUM_5
+  - NUM_6
+  - NUM_7
+  - NUM_8
+  - NUM_9
   Number:
   - {t: LDT, h: toggle}
   - {t: LDT_, h: toggle}
   - '&studio_unlock'
   - F2
   - F12
-  - {t: ▽, type: trans}
+  - INSERT
   - '1'
   - '2'
   - '3'
@@ -198,6 +198,9 @@ layers:
   - '7'
   - '8'
   - '9'
+  - '0'
+  - '-'
+  - '='
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -213,21 +216,22 @@ layers:
   - '0'
   - '-'
   - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '+'
+  - '*'
+  - '/'
+  - '%'
   - '7'
   - '8'
   - '9'
   - '0'
-  - .
+  - '.'
   - ','
-  - ;
+  - ';'
   - ':'
-  - /
+  - '/'
+  - '\'
+  - '|'
+  - '&'
   - LCTRL
   - LALT
   - LWIN
@@ -252,137 +256,23 @@ layers:
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-combos:
-- p: [31, 30]
-  k: ENTER
-- p: [32, 31]
-  k: SPACE
-- p: [30, 31, 32]
-  k: DELETE
-- p: [6, 16]
-  k: '['
-  l: [LDT, LDT_]
-- p: [7, 17]
-  k: ']'
-  l: [LDT, LDT_]
-- p: [7, 16]
-  k: '{'
-  l: [LDT, LDT_]
-- p: [17, 8]
-  k: '}'
-  l: [LDT, LDT_]
-- p: [17, 26]
-  k: (
-  l: [LDT, LDT_]
-- p: [18, 27]
-  k: )
-  l: [LDT, LDT_]
-- p: [0, 10]
-  k: '`'
-  l: [LDT, LDT_]
-- p: [5, 6]
-  k: '~'
-  l: [LDT, LDT_]
-- p: [7, 6]
-  k: +
-  l: [LDT, LDT_]
-- p: [16, 17]
-  k: '-'
-  l: [LDT, LDT_]
-- p: [27, 26]
-  k: _
-  l: [LDT, LDT_]
-- p: [17, 18]
-  k: '='
-  l: [LDT, LDT_]
-- p: [14, 4]
-  k: '!'
-- p: [3, 13]
-  k: '|'
-- p: [2, 13]
-  k: $
-- p: [3, 12]
-  k: '%'
-- p: [3, 2]
-  k: '*'
-- p: [13, 12]
-  k: '&'
-- p: [4, 13]
-  k: '#'
-- p: [3, 14]
-  k: \
-- p: [3, 4]
-  k: ^
-- p: [14, 13]
-  k: '@'
-- p: [33, 9]
-  k: Ctl+BSPC
-  l: [LDT]
-- p: [33, 16]
-  k: Ctl+LEFT
-  l: [LDT]
-- p: [33, 17]
-  k: Ctl+DOWN
-  l: [LDT]
-- p: [33, 18]
-  k: Ctl+RIGHT
-  l: [LDT]
-- p: [33, 7]
-  k: Ctl+UP
-  l: [LDT]
-- p: [33, 9]
-  k: Alt+BSPC
-  l: [LDT_]
-- p: [33, 16]
-  k: Alt+LEFT
-  l: [LDT_]
-- p: [33, 17]
-  k: Alt+DOWN
-  l: [LDT_]
-- p: [33, 7]
-  k: Alt+UP
-  l: [LDT_]
-- p: [34, 16]
-  k: LEFT
-- p: [34, 18]
-  k: RIGHT
-- p: [34, 7]
-  k: UP
-- p: [34, 17]
-  k: DOWN
-- p: [10, 11]
-  k: TAB
-- p: [0, 1]
-  k: ESCAPE
-- p: [8, 9]
-  k: BACKSPACE
-- p: [18, 19]
-  k: ENTER
-- p: [33, 18]
-  k: Alt+RIGHT
-  l: [LDT_]
-- p: [5, 15]
-  k: ''''
-- p: [6, 15]
-  k: '"'
+  - INSERT
+  - HOME
+  - PAGE_UP
+  - PAGE_DOWN
+  - END
+  - UP
+  - DOWN
+  - LEFT
+  - RIGHT
+  - NUM_0
+  - NUM_1
+  - NUM_2
+  - NUM_3
+  - NUM_4
+  - NUM_5
+  - NUM_6
+  - NUM_7
+  - NUM_8
+  - NUM_9
+combos: []
