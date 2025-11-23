@@ -16,7 +16,6 @@ layers:
   - \
   - '|'
   - '`'
-  - '~'
   - A
   - S
   - D
@@ -33,7 +32,6 @@ layers:
   - '-'
   - _
   - '+'
-  - '*'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -48,7 +46,6 @@ layers:
   - '!'
   - '@'
   - '#'
-  - '*'
   - LCTRL
   - LALT
   - LWIN
@@ -64,7 +61,6 @@ layers:
   - F1
   - F2
   - F3
-  - F4
   - F5
   - F6
   - F7
@@ -81,7 +77,6 @@ layers:
   - UP
   - DOWN
   - LEFT
-  - RIGHT
   - NUM_0
   - NUM_1
   - NUM_2
@@ -95,8 +90,6 @@ layers:
   - NUM_DOT
   - NUM_PLUS
   - NUM_MINUS
-  - NUM_MULTIPLY
-  - NUM_DIVIDE
   LDT_:
   - Q
   - W
@@ -113,7 +106,6 @@ layers:
   - \
   - '|'
   - '`'
-  - '~'
   - A
   - S
   - D
@@ -130,7 +122,6 @@ layers:
   - '-'
   - _
   - '+'
-  - '*'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -145,7 +136,6 @@ layers:
   - '!'
   - '@'
   - '#'
-  - '*'
   - LCTRL
   - LALT
   - LWIN
@@ -161,7 +151,6 @@ layers:
   - F1
   - F2
   - F3
-  - F4
   - F5
   - F6
   - F7
@@ -178,7 +167,6 @@ layers:
   - UP
   - DOWN
   - LEFT
-  - RIGHT
   - NUM_0
   - NUM_1
   - NUM_2
@@ -192,8 +180,6 @@ layers:
   - NUM_DOT
   - NUM_PLUS
   - NUM_MINUS
-  - NUM_MULTIPLY
-  - NUM_DIVIDE
   Number:
   - {t: LDT, h: toggle}
   - {t: LDT_, h: toggle}
@@ -210,7 +196,6 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
   - '-'
   - '='
   - {t: BT, h: '0'}
@@ -232,7 +217,6 @@ layers:
   - '%'
   - '^'
   - '&'
-  - '|'
   - '7'
   - '8'
   - '9'
@@ -241,8 +225,6 @@ layers:
   - ','
   - ';'
   - ':'
-  - '\'
-  - '_'
   - LCTRL
   - LALT
   - LWIN
@@ -258,7 +240,6 @@ layers:
   - F1
   - F2
   - F3
-  - F4
   - F5
   - F6
   - F7
@@ -274,8 +255,6 @@ layers:
   - END
   - UP
   - DOWN
-  - LEFT
-  - RIGHT
   - NUM_0
   - NUM_1
   - NUM_2
@@ -289,6 +268,4 @@ layers:
   - NUM_DOT
   - NUM_PLUS
   - NUM_MINUS
-  - NUM_MULTIPLY
-  - NUM_DIVIDE
 combos: []
