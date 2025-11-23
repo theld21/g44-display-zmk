@@ -1,5 +1,9 @@
 #include "ldt21.dtsi"
 
+&default_transform {
+    col-offset = <16>;
+};
+
 &kscan0 {
     col-gpios
         = <&gpio0 31  GPIO_ACTIVE_HIGH>
