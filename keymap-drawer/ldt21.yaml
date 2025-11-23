@@ -1,5 +1,86 @@
 layout: {zmk_keyboard: ldt21}
 layers:
-  LDT: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', DEL, KP NUMLOCK, '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', BACKSPACE,
-    '1', TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ']', \, '2', CAPS, A, S, D, F, G, H, J, K, L, ;, '''', ENTER, '3', '4', LEFT SHIFT, Z, X, C, V, B, N, M, ',', .,
-    /, RIGHT SHIFT, UP, '5', '6', LCTRL, LEFT ALT, LEFT GUI, SPACE, LEFT GUI, LEFT ALT, LEFT ARROW, DOWN, RIGHT, '7', '8', '9', '0', '-']
+  LDT:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - '='
+  - DEL
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - '='
+  - BACKSPACE
+  - '1'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - ']'
+  - \
+  - '2'
+  - CAPS
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - ENTER
+  - '3'
+  - '4'
+  - LEFT SHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - UP
+  - '5'
+  - LCTRL
+  - LEFT ALT
+  - LEFT GUI
+  - SPACE
+  - LEFT GUI
+  - LEFT ALT
+  - LEFT ARROW
+  - DOWN
+  - RIGHT
+combos: []
