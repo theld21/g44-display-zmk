@@ -31,7 +31,6 @@ layers:
   - '='
   - '-'
   - _
-  - '+'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -71,23 +70,23 @@ layers:
   - F12
   - INSERT
   - HOME
-  - PAGE_UP
-  - PAGE_DOWN
+  - PG UP
+  - PG DN
   - END
   - UP
   - DOWN
   - LEFT
-  - NUM_0
-  - NUM_1
-  - NUM_2
-  - NUM_3
-  - NUM_4
-  - NUM_5
-  - NUM_6
-  - NUM_7
-  - NUM_8
-  - NUM_9
-  - NUM_DOT
-  - NUM_PLUS
-  - NUM_MINUS
-combos: []
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP DOT
+  - KP PLUS
+  - KP MINUS
+  - KP MULTIPLY
