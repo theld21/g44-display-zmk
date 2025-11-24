@@ -16,7 +16,7 @@
         compatible = "zmk,combos";
 
         gui {
-            bindings = <&kp LEFT_GUI>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <45 46>;
         };
 
@@ -31,8 +31,13 @@
         };
 
         gui2 {
-            bindings = <&kp LEFT_GUI>;
+            bindings = <&kp LA(TAB)>;
             key-positions = <44 45>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <30 31>;
         };
     };
 
