@@ -71,11 +71,11 @@ layers:
   - RIGHT SHIFT
   - UP
   - LCTRL
-  - LEFT ALT
   - LEFT GUI
+  - LEFT ALT
   - {t: SPACE, h: LCTRL}
-  - LEFT GUI
   - LEFT ALT
+  - LEFT GUI
   - LEFT ARROW
   - DOWN
   - RIGHT
@@ -83,6 +83,8 @@ combos:
 - p: [45, 46]
   k: LEFT GUI
 - p: [46, 47]
-  k: ''
+  k: ENTER
 - p: [31, 32]
   k: BACKSPACE
+- p: [44, 45]
+  k: LEFT GUI
