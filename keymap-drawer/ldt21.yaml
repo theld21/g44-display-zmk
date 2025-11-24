@@ -79,3 +79,10 @@ layers:
   - LEFT ARROW
   - DOWN
   - RIGHT
+combos:
+- p: [45, 46]
+  k: LEFT GUI
+- p: [46, 47]
+  k: ''
+- p: [31, 32]
+  k: BACKSPACE
