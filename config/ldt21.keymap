@@ -12,6 +12,25 @@
 #define NUM 2
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <45 46>;
+        };
+
+        enter {
+            bindings = <&none>;
+            key-positions = <46 47>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
