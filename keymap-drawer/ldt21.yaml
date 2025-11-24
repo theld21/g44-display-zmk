@@ -43,7 +43,7 @@ layers:
   - '['
   - ']'
   - \
-  - {t: LEFT GUI, h: CAPSLOCK}
+  - {t: TAB, h: CAPSLOCK}
   - A
   - S
   - D
@@ -57,7 +57,7 @@ layers:
   - ''''
   - ENTER
   - DELETE
-  - LEFT SHIFT
+  - {t: LEFT GUI, h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -80,7 +80,7 @@ layers:
   - DOWN
   - RIGHT
 combos:
-- p: [46, 47]
+- p: [46, 45]
   k: ENTER
 - p: [31, 32]
   k: BACKSPACE
