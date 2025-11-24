@@ -81,10 +81,12 @@ layers:
   - RIGHT
 combos:
 - p: [45, 46]
-  k: LEFT GUI
+  k: Alt+TAB
 - p: [46, 47]
   k: ENTER
 - p: [31, 32]
   k: BACKSPACE
 - p: [44, 45]
-  k: LEFT GUI
+  k: Alt+TAB
+- p: [30, 31]
+  k: ESC
