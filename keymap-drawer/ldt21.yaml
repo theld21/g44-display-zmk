@@ -43,7 +43,7 @@ layers:
   - '['
   - ']'
   - \
-  - CAPS
+  - {t: LEFT GUI, h: CAPSLOCK}
   - A
   - S
   - D
