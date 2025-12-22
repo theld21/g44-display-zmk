@@ -38,8 +38,8 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            hold-trigger-key-positions = <27 14 28 54 39 40 43 56 57 58 59 60>;
+            tapping-term-ms = <160>;
+            hold-trigger-key-positions = <27 14 28 54 43 56 57 58 59 60 44>;
             flavor = "hold-preferred";
         };
     };
