@@ -17,17 +17,17 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <46 45>;
+            key-positions = <46 47>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <31 32>;
+            key-positions = <32 33>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <30 31>;
+            key-positions = <31 32>;
         };
     };
 
@@ -38,7 +38,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <500>;
+            tapping-term-ms = <300>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <14 0 27 54>;
         };
     };
 
@@ -52,7 +54,7 @@
 &kp TAB                  &kp Q         &kp W         &kp E                  &kp R         &kp T         &kp Y           &kp U     &kp I      &kp O       &kp P          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
 &mt CAPSLOCK TAB         &kp A         &kp S         &kp D                  &kp F         &kp G         &kp H           &kp J     &kp K      &kp L       &kp SEMICOLON  &kp SQT           &kp ENTER          &kp DELETE
 &mt LEFT_SHIFT LEFT_GUI  &kp Z         &kp X         &kp C                  &kp V         &kp B         &kp N           &kp M     &kp COMMA  &kp PERIOD  &kp SLASH      &kp RIGHT_SHIFT   &kp UP
-&kp LCTRL                &kp LEFT_GUI  &kp LEFT_ALT  &ctrlhold LCTRL SPACE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT
+&kp LCTRL                &kp LEFT_ALT  &kp LEFT_GUI  &ctrlhold LCTRL SPACE  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT
             >;
 
             label = "LDT";
