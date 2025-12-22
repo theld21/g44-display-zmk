@@ -19,16 +19,6 @@
             bindings = <&kp ENTER>;
             key-positions = <46 47>;
         };
-
-        backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <32 33>;
-        };
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <31 32>;
-        };
     };
 
     behaviors {
