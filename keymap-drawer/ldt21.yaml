@@ -82,7 +82,3 @@ layers:
 combos:
 - p: [46, 47]
   k: ENTER
-- p: [32, 33]
-  k: BACKSPACE
-- p: [31, 32]
-  k: ESC
