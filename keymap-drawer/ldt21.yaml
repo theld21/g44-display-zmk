@@ -79,6 +79,3 @@ layers:
   - LEFT ARROW
   - DOWN
   - RIGHT
-combos:
-- p: [46, 47]
-  k: ENTER
