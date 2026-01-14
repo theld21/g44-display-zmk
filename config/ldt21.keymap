@@ -12,14 +12,7 @@
 #define NUM 2
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <46 47>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         ctrlhold: ctrlhold {
