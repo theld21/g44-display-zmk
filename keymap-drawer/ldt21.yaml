@@ -43,7 +43,7 @@ layers:
   - '['
   - ']'
   - \
-  - {t: TAB, h: CAPSLOCK}
+  - CAPSLOCK
   - A
   - S
   - D
@@ -73,7 +73,7 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: SPACE, h: LCTRL}
+  - SPACE
   - LEFT ALT
   - LEFT GUI
   - LEFT ARROW
